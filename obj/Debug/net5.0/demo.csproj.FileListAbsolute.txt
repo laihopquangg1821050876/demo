@@ -37,3 +37,4 @@ D:\demo\demo\obj\Debug\net5.0\ref\demo.dll
 D:\demo\demo\obj\Debug\net5.0\demo.pdb
 D:\demo\demo\obj\Debug\net5.0\demo.genruntimeconfig.cache
 D:\demo\demo\obj\Debug\net5.0\demo.csproj.CopyComplete
+D:\demo\demo\obj\Debug\net5.0\Razor\Views\HelloWorld\index.cshtml.g.cs

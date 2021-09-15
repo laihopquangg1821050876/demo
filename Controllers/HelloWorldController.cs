@@ -8,17 +8,17 @@ namespace demo.Controllers
         // 
         // GET: /HelloWorld/
 
-        public string Index()
+        public IActionResult Index()
         {
-            return "This is my default action...";
+            return View() ;
         }
 
         // 
         // GET: /HelloWorld/Welcome/ 
 
-        public string Welcome()
+        public IActionResult Welcome()
         {
-            return "This is the Welcome action method...";
+            return View() ;
         }
     }
 }
