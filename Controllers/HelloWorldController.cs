@@ -5,7 +5,6 @@ namespace demo.Controllers
 {
     public class HelloWorldController : Controller
     {
-        // 
         // GET: /HelloWorld/
 
         public IActionResult Index()
