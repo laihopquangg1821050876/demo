@@ -9,10 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using demo.Data;
-{
-     
-}
+using MvcMovie.Data;
+
+
 
 namespace demo
 {
@@ -76,3 +75,4 @@ namespace demo
         }
     }
 }
+

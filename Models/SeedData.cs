@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MvcMovie.Data;
 using System;
 using System.Linq;
+using MvcMovie.Models;
 
 namespace demo.Models
 {
