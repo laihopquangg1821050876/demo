@@ -60,6 +60,9 @@ namespace demo.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
+            try
+            {
+            //neu rang buoc o model thoa man
             if (ModelState.IsValid)
             {
                 _context.Add(movie);
@@ -67,6 +70,13 @@ namespace demo.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(movie);
+            }
+            catch
+            {
+                // viet nhung lenh xu ly loi co the phat sinh
+                ModelState.AddModelError("","mat ket noi toi may chu");
+                return RedirectToAction(nameof(Index));
+            }
         }
 
         // GET: Movies/Edit/5
